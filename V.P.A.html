@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ViewPoint Adventure Kasambara</title>
+    <link rel="icon" href="images/balcony.jpg">
+    <link rel="stylesheet" href="CSS/VPA.css">
+
+    <style>
+
+        body{
+            background: whitesmoke;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<ul class="topNav">
+
+
+    <li class="listitem dropdown">
+    <li class="listitem"><a href="Contact%20Us.html" class="item active">Contact Us</a></li>
+    <li class="listitem dropdown">
+        <a href="javascript:void[0]" class="item dropbtn">Packages</a>
+        <div class="dropdown-content">
+            <a href="Prices.html" class="subitem">Prices</a>
+        </div>
+    </li>
+    <li class="listitem dropdown">
+        <a href="javascript:void[0]" class="item dropbtn">Rooms</a>
+        <div class="dropdown-content">
+            <a href="rooms.html" class="subitem">Rooms</a>
+            <a href="Tents.html" class="subitem">Tents</a>
+        </div>
+    </li>
+    <li class="listitem dropdown">
+        <a href="javascript:void[0]" class="item dropbtn">Bar And Restaurant</a>
+        <div class="dropdown-content">
+            <a href="Restaurant.html" class="subitem">Restaurant</a>
+            <a href="Meat%20&Grill.html" class="subitem">Meat&Grill</a>
+            <a href="Playing Ground.html" class="subitem">Playing Ground</a>
+        </div>
+    </li>
+    <li class="listitem"><a href="V.P.A.html" class="item active">Home</a></li>
+</ul>
+&nbsp
+&nbsp;
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 10</div>
+        <img src="images/vpa%202.jpg" alt="" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <img src="images/RES2.JPG" alt="" style="width:100%">
+            <div class="text">Caption Two</div>
+
+        </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 10</div>
+        <img src="images/room7.JPG" alt="" style="width:100%">
+        <div class="text">rooms</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 10</div>
+        <img src="images/Ground%207.jpg" alt="" style="width:100%">
+        <div class="text">Ground</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">5/ 10</div>
+        <img src="images/Grill%202.jpg" alt="" style="width:100%">
+        <div class="text">Grill</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 10</div>
+        <img src="images/bar4.jpg" alt="" style="width:100%">
+        <div class="text">Grill</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">7 /10</div>
+        <img src="images/Tent%206.jpg" alt="" style="width:100%">
+        <div class="text">Tents</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">8 /10</div>
+        <img src="images/View.jpg" alt="" style="width:100%">
+        <div class="text">view</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 10</div>
+        <img src="images/View2.jpg" alt="" style="width:100%">
+        <div class="text">the view</div>
+
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">10/ 10</div>
+        <img src="images/Rooms.jpg" alt="" style="width:100%">
+        <div class="text">home</div>
+
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+
+</div>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000);
+    }
+</script>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp
+&nbsp;
+<h3><u>WHO ARE WE</u></h3>
+<p>Viewpoint Kasambara Resort is a anew vibrant hotel coming up at the Gilgil Area
+in Nakuru City.</p>
+&nbsp;<p>Enjoy the majestic view of the Rift Valley including Lake Elementaita,Picturesque view
+of the Nakuru-Nairobi Highway and the snakey Nairobi-Kisumu railway line.Savour the
+Majestic natural African scenery below your eyes</p>
+&nbsp;
+<h3><u>WHY YOU SHOULD CHOOSE US</u></h3>
+<p>We are open for both corporate family and institutional activities such as;Team building and Faamily
+getaways.We also Host Private functions such as;Weddings,Birthdays and Anniversaries.</p>
+</body>
+</html>
